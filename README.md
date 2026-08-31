@@ -1,6 +1,6 @@
 # 🌐 Kajal Kumari - Personal Portfolio
 
-Welcome to my personal portfolio website! 👋
+Welcome to my personal portfolio website! 
 
 This repository contains my portfolio website, created to showcase my **education, technical skills, projects, achievements, learning journey, and career goals**.
 
