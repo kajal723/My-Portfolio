@@ -6,62 +6,39 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Kajal Kumari | Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
 
-    <!-- ================= HEADER ================= -->
-
     <header>
+        <div class="header-container">
+            <div class="header-content">
+                <h1>Kajal Kumari</h1>
+                <h3>Computer Science Student | Programmer | Aspiring Software Developer</h3>
+                <p>Galgotias University</p>
+            </div>
+            <div class="header-image">
+                <img src="image.png" alt="Kajal Kumari" width="150" height="150">
+            </div>
+        </div>
 
-        <table width="100%">
-            <tr>
-
-                <td>
-                    <h1>Kajal Kumari</h1>
-
-                    <h3>
-                        Computer Science Student | Programmer | Aspiring Software Developer
-                    </h3>
-
-                    <p>
-                        Galgotias University
-                    </p>
-                </td>
-
-                <td align="right">
-                    <img src="profile.jpg"
-                         alt="Kajal Kumari"
-                         width="150"
-                         height="150">
-                </td>
-
-            </tr>
-        </table>
-
-        <hr>
-
-        <!-- Navigation -->
-
-        <nav>
-            <a href="#about">About</a> |
-            <a href="#education">Education</a> |
-            <a href="#skills">Skills</a> |
-            <a href="#projects">Projects</a> |
-            <a href="#achievements">Achievements</a> |
-            <a href="#goals">Career Goals</a> |
+        <nav class="navbar">
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#goals">Career Goals</a>
             <a href="#contact">Contact</a>
         </nav>
-
     </header>
 
 
     <main>
 
-        <!-- ================= ABOUT ================= -->
-
         <section id="about">
-
             <h2>About Me</h2>
 
             <p>
@@ -86,48 +63,19 @@
                 I believe in consistent learning and regularly practice
                 coding to improve my problem-solving abilities.
             </p>
-
         </section>
-
-
-        <hr>
-
-
-        <!-- ================= EDUCATION ================= -->
 
         <section id="education">
-
             <h2>Education</h2>
 
-            <table border="1" cellpadding="10" width="100%">
-
-                <tr>
-                    <th>Institution</th>
-                    <th>Course</th>
-                    <th>Status</th>
-                </tr>
-
-                <tr>
-                    <td>Galgotias University</td>
-                    <td>
-                        Computer Science / Engineering
-                        <br>
-                        <small>
-                            Add your exact course name here
-                        </small>
-                    </td>
-                    <td>Currently Pursuing</td>
-                </tr>
-
-            </table>
-
+            <div class="education-card">
+                <div class="education-item">
+                    <h3>Galgotias University</h3>
+                    <p class="course"><strong>Computer Science / Engineering</strong></p>
+                    <p class="status">Currently Pursuing</p>
+                </div>
+            </div>
         </section>
-
-
-        <hr>
-
-
-        <!-- ================= SKILLS ================= -->
 
         <section id="skills">
 
@@ -138,6 +86,8 @@
             <ul>
                 <li>Java</li>
                 <li>Python</li>
+                <li>C</li>
+                <li>DSA</li>
             </ul>
 
 
@@ -145,7 +95,8 @@
 
             <ul>
                 <li>HTML</li>
-                <li>CSS – currently learning</li>
+                <li>CSS - currently learning</li>
+                <li>JavaScript - currently learning</li>
             </ul>
 
 
@@ -173,7 +124,6 @@
         <hr>
 
 
-        <!-- ================= PROJECTS ================= -->
 
         <section id="projects">
 
@@ -182,8 +132,7 @@
 
             <article>
 
-                <h3>Real-Time AI/ML Based Phishing Detection
-                    and Prevention System</h3>
+                <h3>Student Management System</h3>
 
                 <p>
                     A Smart India Hackathon project focused on detecting
@@ -193,13 +142,13 @@
 
                 <p>
                     <strong>Key Focus:</strong>
-                </p>
+                </p >
 
                 <ul>
-                    <li>Phishing detection</li>
-                    <li>AI/ML-based analysis</li>
-                    <li>Real-time threat identification</li>
-                    <li>User protection and prevention</li>
+                    <li>Student record management</li>
+                    <li>Academic performance tracking</li>
+                    <li>Attendance monitoring</li>
+                    <li>University administration</li>
                 </ul>
 
             </article>
@@ -250,8 +199,6 @@
         <hr>
 
 
-        <!-- ================= DSA JOURNEY ================= -->
-
         <section id="dsa">
 
             <h2>My DSA Journey</h2>
@@ -283,7 +230,6 @@
         <hr>
 
 
-        <!-- ================= ACHIEVEMENTS ================= -->
 
         <section id="achievements">
 
@@ -318,7 +264,6 @@
         <hr>
 
 
-        <!-- ================= CAREER GOALS ================= -->
 
         <section id="goals">
 
@@ -373,7 +318,6 @@
         <hr>
 
 
-        <!-- ================= LEARNING ================= -->
 
         <section id="learning">
 
@@ -429,7 +373,6 @@
         <hr>
 
 
-        <!-- ================= CONTACT ================= -->
 
         <section id="contact">
 
@@ -452,22 +395,22 @@
 
                 <p>
                     <strong>Email:</strong>
-                    <a href="mailto:your-email@example.com">
-                        your-email@example.com
+                    <a href="mailto:kajalshah6781@gmail.com">
+                        kajalshah6781@gmail.com
                     </a>
                 </p>
 
                 <p>
                     <strong>GitHub:</strong>
-                    <a href="https://github.com/yourusername">
-                        GitHub Profile
+                    <a href="https://github.com/kajal723">
+                        kajal723
                     </a>
                 </p>
 
                 <p>
                     <strong>LinkedIn:</strong>
-                    <a href="https://www.linkedin.com/in/yourusername">
-                        LinkedIn Profile
+                    <a href="https://www.linkedin.com/in/kajal-shah-bb8038386/">
+                        kajal-shah
                     </a>
                 </p>
 
@@ -478,7 +421,6 @@
     </main>
 
 
-    <!-- ================= FOOTER ================= -->
 
     <footer>
 
@@ -497,6 +439,8 @@
         </p>
 
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 
