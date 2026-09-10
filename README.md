@@ -45,6 +45,7 @@ This project is intentionally created using **HTML only**.
 - HTML Lists
 - HTML Images
 - HTML Details & Summary
+- Css for styling
 
 > No CSS or JavaScript is used in this version because the main goal of this project is to practice and demonstrate HTML fundamentals.
 
